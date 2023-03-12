@@ -43,7 +43,7 @@ function Navbar(props) {
 								<div class="row">
 									<div class="col-lg-6">
 										<ul>
-											<li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+											<li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://prathiba-ramesh.pages.dev/</span></li>
 											<li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Milpitas, CA 95035</span></li>
 										</ul>
 									</div>
