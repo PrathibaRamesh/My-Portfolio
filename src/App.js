@@ -1,20 +1,29 @@
-import { Component } from "react";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../src/css/style.css";
+import { Routes, Route } from "react-router-dom";
 
-import Home from "./components/home.component";
+import Homepage from "./pages/homepage";
+import About from "./pages/about";
+import Projects from "./pages/projects";
+import Articles from "./pages/articles";
+import ReadArticle from "./pages/readArticle";
+import Contact from "./pages/contact";
+import Notfound from "./pages/404";
 
-class App extends Component {
-    render() {
-        return (
-            <Router>
-                <Routes>
-                    <Route path="/" exact element={<Home />} />
-                </Routes>
-            </Router>
-        );
-    }
+import "./app.css";
+
+function App() {
+  return (
+	  <div className="App">
+		  <Routes>
+			  <Route path="/" element={<Homepage />} />
+			  <Route path="/about" element={<About />} />
+			  <Route path="/projects" element={<Projects />} />
+			  <Route path="/articles" element={<Articles />} />
+			  <Route path="/article/:slug" element={<ReadArticle />} />
+			  <Route path="/contact" element={<Contact />} />
+			  <Route path="*" element={<Notfound />} />
+		  </Routes>
+	  </div>
+  );
 }
+
 export default App;
