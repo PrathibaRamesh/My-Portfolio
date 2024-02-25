@@ -14,7 +14,9 @@
 }
 
 .contact-subtitle {
-    width: 100% !important;
+    display: flex;
+    justify-content: space-between; /* This will space out the cards evenly */
+    flex-wrap: wrap; /* This allows the cards to wrap into the next line on smaller screens */
 }
 
 .contact-container {

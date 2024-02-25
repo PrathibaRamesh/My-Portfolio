@@ -39,7 +39,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Contributions to the Digital Cosmos: Things I've Built
+							Open Source Projects
 						</div>
 
 						<div className="subtitle projects-subtitle">
@@ -56,9 +56,9 @@ const Projects = () => {
 							<AllProjects />
 						</div>
 					</div>
-					<div className="page-footer">
-						<Footer />
-					</div>
+					{/*<div className="page-footer">*/}
+					{/*	<Footer />*/}
+					{/*</div>*/}
 				</div>
 			</div>
 		</React.Fragment>

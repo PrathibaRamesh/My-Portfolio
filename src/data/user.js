@@ -25,7 +25,7 @@ const INFO = {
 	},
 
 	articles: {
-		title: "4+ Years of Crafting Software Engineering Excellence",
+		title: "Experience",
 		description:
 			"Below is Chronological collection of my contribution towards achieving each organization's goal.",
 	},
@@ -74,6 +74,15 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://github.com/PrathibaRamesh/KQED_Membership_ReportGenerator",
+		},
+
+		{
+			title: "Expense Tracker App",
+			description:
+				"Developed an Expense Tracker App using WPF and C# libraries to record daily expenses and income, monitor monthly trend in investments and budgeting using visual charts.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
+			linkText: "View Project",
+			link: "https://github.com/PrathibaRamesh/ExpenseTrackerWPF",
 		},
 	],
 };

@@ -20,9 +20,10 @@
 .page-content {
     background-color: white;
     position: relative;
+    min-height: 100vh;
 }
 
-    .page-content:before,
+/*    .page-content:before,
     .page-content:after {
         content: "";
         position: absolute;
@@ -31,9 +32,9 @@
         width: calc((100% - 1200px) / 2);
         background-color: #fafafa;
         border: 1px solid #f4f4f5;
-    }
+    }*/
 
-    .page-content:before {
+/*    .page-content:before {
         left: 0;
         z-index: 1;
     }
@@ -41,11 +42,19 @@
     .page-content:after {
         right: 0;
         z-index: 1;
-    }
+    }*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 .content-wrapper {
-    max-width: 1000px;
-    margin: 0 auto;
+    flex: 1; /* This will make it fill the available space */
+    max-width: 1300px;
+    margin: auto; /* Centers the content-wrapper horizontally */
+    padding: 20px; /* Optional padding */
 }
 
 .title {
@@ -66,7 +75,7 @@
 }
 
 .page-footer {
-    position: block;
+    width: 100%;
 }
 
     .page-footer::before {
@@ -78,40 +87,52 @@
     }
 
 @media (max-width: 1270px) {
-    .page-content:before,
+/*    .page-content:before,
     .page-content:after {
         width: calc((100% - 90%) / 2);
-    }
+    }*/
 
     .content-wrapper {
-        max-width: 90%;
+        /*max-width: 90%;
         padding-left: 10%;
-        padding-right: 10%;
+        padding-right: 10%;*/
+        flex: 1; /* This will make it fill the available space */
+        max-width: 1000px;
+        margin: auto; /* Centers the content-wrapper horizontally */
+        padding: 20px; /* Optional padding */
     }
 }
 
 @media (max-width: 1024px) {
-    .page-content:before,
+/*    .page-content:before,
     .page-content:after {
         width: calc((100% - 950px) / 2);
-    }
+    }*/
 
     .content-wrapper {
-        max-width: 980px;
+        /*max-width: 980px;*/
+        flex: 1; /* This will make it fill the available space */
+        max-width: 1000px;
+        margin: auto; /* Centers the content-wrapper horizontally */
+        padding: 20px; /* Optional padding */
     }
 }
 
 @media (max-width: 800px) {
     .content-wrapper {
-        max-width: 90%;
+        /*max-width: 90%;
         margin: 0 auto;
-        padding: 0 10px;
+        padding: 0 10px;*/
+        flex: 1; /* This will make it fill the available space */
+        max-width: 1000px;
+        margin: auto; /* Centers the content-wrapper horizontally */
+        padding: 20px; /* Optional padding */
     }
 
-    .page-content:before,
+/*    .page-content:before,
     .page-content:after {
         display: none;
-    }
+    }*/
 
     .title {
         width: 100%;

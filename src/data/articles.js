@@ -2,7 +2,7 @@ import React from "react";
 
 function article_1() {
     return {
-        date: "July 2023 - Present",
+        date: "July 2023 - Dec 2023",
         title: "KQED",
         description:
             "Led data transformation and automation efforts using MongoDB and Python, enhancing data efficiency, real-time synchronization, report generation in Tableau, and data security, resulting in improved performance, revenue growth, and increased data visualization engagement.",

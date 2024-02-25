@@ -16,7 +16,7 @@ const SEO = [
 	{
 		page: "articles",
 		description:
-			"4+ Years of Crafting Software Engineering Excellence",
+			"Experience",
 		keywords: [""],
 	},
 

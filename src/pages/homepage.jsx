@@ -178,9 +178,9 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="page-footer">
-							<Footer />
-						</div>
+						{/*<div className="page-footer">*/}
+						{/*	<Footer />*/}
+						{/*</div>*/}
 					</div>
 				</div>
 			</div>

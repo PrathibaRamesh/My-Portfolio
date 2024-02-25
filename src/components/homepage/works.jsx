@@ -23,7 +23,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Software Engineer Intern
 							</div>
-							<div className="work-duration">July 2023 - Present</div>
+							<div className="work-duration">July 2023 - Dec 2023</div>
 						</div>
 						<div className="work">
 							<img
@@ -35,7 +35,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Graduate Research Assistant
 							</div>
-							<div className="work-duration">Jan 2022 - Present</div>
+							<div className="work-duration">Jan 2022 -  Dec 2023</div>
 						</div>
 
 						<div className="work">

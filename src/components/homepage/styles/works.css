@@ -2,6 +2,7 @@
 
 .works-body {
     margin-bottom: 10px;
+    /*text-align: center;*/ /* Center the content */
 }
 
 .work {
@@ -10,12 +11,22 @@
     width: 400px;
 }
 
+.awards {
+    display: flex;
+    padding-bottom: 40px;
+    width: 200px;
+    margin-bottom: 15px; /* Space out the awards */
+}
+
 .work-image {
     height: 30px;
     width: 30px;
     border-radius: 50%;
     outline: 6px solid white;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+    max-width: 100%; /* Ensure the image is responsive and fits the card */
+    /*height: auto;*/ /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space below the image */
 }
 
 .work-title {
@@ -27,6 +38,7 @@
 }
 
 .work-subtitle {
+    width: 100%;
     position: absolute;
     font-size: 12px;
     color: var(--secondary-color);
