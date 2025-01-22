@@ -199,7 +199,7 @@ const Homepage = () => {
                                             <h5 className="vertical-timeline-element-subtitle">{element.location}</h5>
                                             <p id="description">{element.description}</p>
                                             {showButton && (
-                                                <a className={`button ${isWorkIcon ? "workButton" : "schoolButton"}`} href="/">{element.buttonText}</a>)}
+                                                <a className={`button ${isWorkIcon ? "workButton" : "schoolButton"}`} href={element.link}>{element.buttonText}</a>)}
                                         </VerticalTimelineElement>
                                     );
                                 })}

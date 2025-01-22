@@ -133,30 +133,32 @@ const Achievements = () => {
             </Helmet>
             <div className="achievements-page">
                 <NavBar active="achievements" />
-                <h1 className="achievements-title">Notable Accomplishments</h1>
-                <div className="achievements-container">
-                    {/*<div className="homepage-logo-container">*/}
-                    {/*    <div style={logoStyle}>*/}
-                    {/*        <Logo width={logoSize} link={false} />*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-                    {cards.map((card, index) => (
-                        <div key={index} className="card">
-                            <div className="card-inner">
-                                <div className={`card-front ${card.front.colorClass}`}>
-                                    <div className="card-icon">{card.front.icon}</div>
-                                    <h2>{card.front.title}</h2>
-                                    <p>{card.front.subtitle}</p>
-                                </div>
-                                <div className="card-back">
-                                    <p>{card.back.description}</p>
+                <div className="content-wrapper">
+                    <h1 className="achievements-title">Notable Accomplishments</h1>
+                    <div className="achievements-logo-container">
+                        <div className="achievements-logo">
+                            <Logo width={46} />
+                        </div>
+                    </div>
+                    <div className="achievements-container">
+                        {cards.map((card, index) => (
+                            <div key={index} className="card">
+                                <div className="card-inner">
+                                    <div className={`card-front ${card.front.colorClass}`}>
+                                        <div className="card-icon">{card.front.icon}</div>
+                                        <h2>{card.front.title}</h2>
+                                        <p>{card.front.subtitle}</p>
+                                    </div>
+                                    <div className="card-back">
+                                        <p>{card.back.description}</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
+                    <br />
+                    <br />
                 </div>
-                <br />
-                <br />
             </div>
         </React.Fragment>
     );

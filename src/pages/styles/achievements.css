@@ -20,7 +20,7 @@
 /* Container for Cards */
 .achievements-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    grid-template-columns: repeat(3, minmax(400px, 1fr)); /* Dynamically adjust cards per row */
     gap: 90px;
     width: 100%;
     max-width: 1500px;
@@ -54,7 +54,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    /*padding: 20px;*/
     font-size: 1.3rem;
     font-weight: bold;
     color: #333;
@@ -74,9 +74,9 @@
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.6;
-    padding: 20px;
+    padding: 10px;
     color: #444;
-    background: linear-gradient(to bottom right, #ffffff, #f9f9f9); 
+    background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out; /* Smooth transitions for flip effects */
@@ -113,4 +113,20 @@
     .achievements-container {
         grid-template-columns: 1fr; /* 1 card per row on very small screens */
     }
+}
+
+.achievements-logo-container {
+    display: flex;
+    justify-content: left;
+    padding-top: 25px;
+}
+
+.achievements-logo {
+    display: flex;
+    position: fixed;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    top: 4vh;
+    z-index: 999;
 }
