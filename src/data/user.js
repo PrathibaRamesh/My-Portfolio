@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "PR Portfolio",
+		title: "Prathiba Ramesh",
 		name: "Prathiba Ramesh",
 		email: "prathibaramesh2120@gmail.com",
 		logo: "../logo.png",
@@ -25,9 +25,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Experience",
+		title: "Technical Journey",
 		description:
-			"Below is Chronological collection of my contribution towards achieving each organization's goal.",
+			"Throughout my professional journey, I have consistently strived to make meaningful contributions to the success of each organization I have been a part of. My efforts have been driven by a commitment to excellence, collaboration, and a deep understanding of organizational goals. Below is a chronological account of my key contributions:",
 	},
 
 	projects: [
@@ -35,7 +35,7 @@ const INFO = {
 			title: "iPlate, The Health App",
 			description:
 				"Led a team in developing a web app to monitor daily food intake, using ReactJS for the front-end, ChartJS for data visualization, NodeJS for the back-end, and MongoDB. Deployed on Google Cloud Platform, enabling users to track dietary habits.",
-			logo: "https://iili.io/H7ALWtR.jpg",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
 			linkText: "View Project",
 			link: "https://github.com/PrathibaRamesh/iPlate-Health-App",
 		},
@@ -44,7 +44,7 @@ const INFO = {
 			title: "VR Engine for Structural Damage",
 			description:
 				"Created a VR training program for Structural Engineers using Unity and C#. Developed realistic post-hazard assessment scenarios with interactive VR-friendly UI, optimizing performance with Unity's Scene Management API.",
-			logo: "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
 			linkText: "View Project",
 			link: "https://github.com/khanhngg/VR-Engine-SFSU",
 		},

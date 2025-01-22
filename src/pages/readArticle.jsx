@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
 import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
@@ -57,14 +56,14 @@ const ReadArticle = () => {
 						</div>
 
 						<div className="read-article-wrapper">
-							<div className="read-article-date-container">
-								<div className="read-article-date">
-									{article().date}
-								</div>
-							</div>
 
 							<div className="title read-article-title">
 								{article().title}
+								<div className="read-article-date-container">
+									<div className="read-article-date">
+										{article().date}
+									</div>
+								</div>
 							</div>
 
 							<div className="read-article-body">
@@ -72,9 +71,6 @@ const ReadArticle = () => {
 							</div>
 						</div>
 					</div>
-					{/*<div className="page-footer">*/}
-					{/*	<Footer />*/}
-					{/*</div>*/}
 				</div>
 			</div>
 		</React.Fragment>

@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
@@ -53,11 +52,6 @@ const About = () => {
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
-										{/*<img*/}
-										{/*	src="about.jpg"*/}
-										{/*	alt="about"*/}
-										{/*	className="about-image"*/}
-										{/*/>*/}
 									</div>
 								</div>
 
@@ -70,9 +64,6 @@ const About = () => {
 							<Socials />
 						</div>
 					</div>
-					{/*<div className="page-footer">*/}
-					{/*	<Footer />*/}
-					{/*</div>*/}
 				</div>
 			</div>
 		</React.Fragment>

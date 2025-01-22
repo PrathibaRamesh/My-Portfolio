@@ -41,8 +41,7 @@
 }
 
 .read-article-date-container {
-    border-left: 2px solid var(--quaternary-color);
-    color: var(--tertiary-color);
+    color: rgb(201, 251, 255);
     font-size: 16 px;
     align-items: center;
     height: 22px;
@@ -51,6 +50,7 @@
 .read-article-date {
     font-family: var(--primary-font);
     padding-left: 15px;
+    font-size: 0.5em
 }
 
 .read-article-title {
@@ -64,5 +64,5 @@
     font-size: 16px;
     line-height: 30px;
     font-family: system-ui;
-    color: #52525b;
+    color: #c9fbff;
 }

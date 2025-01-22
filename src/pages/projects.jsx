@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
@@ -38,27 +37,41 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-container">
-						<div className="title projects-title">
-							Open Source Projects
-						</div>
 
-						<div className="subtitle projects-subtitle">
-							I have garnered extensive experience working on
-							multiple projects, each involving diverse
-							technology stacks, over the course of my career.
-							This varied exposure has equipped me with a robust
-							skill set and a comprehensive understanding of
-							different technologies, making me well-equipped to
-							tackle multifaceted challenges in the field.
+						<div className="homepage-first-area">
+							<div className="homepage-first-area-left-side">
+								<div className="title homepage-title">
+									Open Source Projects
+								</div>
+
+								<div className="subtitle homepage-subtitle">
+									I have garnered extensive experience working on
+									multiple projects, each involving diverse
+									technology stacks, over the course of my career.
+									This varied exposure has equipped me with a robust
+									skill set and a comprehensive understanding of
+									different technologies, making me well-equipped to
+									tackle multifaceted challenges in the field.
+								</div>
+							</div>
+
+							<div className="homepage-first-area-right-side">
+								<div className="homepage-image-container">
+									<div className="homepage-image-wrapper">
+										<img
+											src="projects.png"
+											alt="about"
+											className="homepage-image"
+										/>
+									</div>
+								</div>
+							</div>
 						</div>
 
 						<div className="projects-list">
 							<AllProjects />
 						</div>
 					</div>
-					{/*<div className="page-footer">*/}
-					{/*	<Footer />*/}
-					{/*</div>*/}
 				</div>
 			</div>
 		</React.Fragment>

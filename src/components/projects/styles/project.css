@@ -44,7 +44,14 @@
 }
 
 .project-description {
-    color: var(--secondary-color);
+    color: rgb(201, 251, 255);
+    font-size: 15px;
+}
+
+.project:hover .project-description {
+    color: #65656d;
+    transition: color 0.3s ease-in-out;
+    margin: 1.5em 0 2em 0
 }
 
 .project-link {

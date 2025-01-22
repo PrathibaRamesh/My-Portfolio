@@ -110,6 +110,13 @@
         width: 100% !important;
         margin-top: 20px;
         order: 2;
+        padding: 50px;
+        font-size: 45px;
+        font-weight: 700;
+        font-family: "Bebas Neue", sans-serif;
+        margin-bottom: 0px;
+        color: var(--primary-color);
+        text-align: center;
     }
 
     .homepage-subtitle {
@@ -148,3 +155,116 @@
         margin-right: -25px;
     }
 }
+
+.title {
+    font-size: 15em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+    padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0 0.4em 1.25em 0 rgba(0,0,0,0.15) !important;
+    padding: 2em 3em !important;
+}
+
+.date {
+    color: rgb(201, 251, 255)
+}
+
+#description {
+    margin: 1.5em 0 2em 0
+}
+
+.button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white
+}
+
+.workButton {
+    background-color: #06d6a0;
+}
+
+    .workButton:hover {
+        background-color: #0ac593;
+    }
+
+.schoolButton {
+    background-color: #f9c74f;
+}
+
+    .schoolButton:hover {
+        background-color: #f3bc3c;
+    }
+
+@media only screen and (max-width: 1200px){
+    .vertical-timeline-element-date{
+        display: block !important;
+        float: none !important;
+        color: rgb(44, 44, 44);
+        margin-top: 1.5em
+    }
+}
+
+.tech-stack {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.tech-stack-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3rem;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.tech-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tech-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tech-logo:hover {
+    transform: scale(1.1);
+}
+
+.tech-tooltip {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 10;
+}
+
+.tech-item:hover .tech-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+

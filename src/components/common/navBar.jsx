@@ -21,15 +21,6 @@ const NavBar = (props) => {
 							>
 								<Link to="/">Home</Link>
 							</li>
-							{/*<li*/}
-							{/*	className={*/}
-							{/*		active === "about"*/}
-							{/*			? "nav-item active"*/}
-							{/*			: "nav-item"*/}
-							{/*	}*/}
-							{/*>*/}
-							{/*	<Link to="/about">About</Link>*/}
-							{/*</li>*/}
 							<li
 								className={
 									active === "projects"
@@ -48,15 +39,15 @@ const NavBar = (props) => {
 							>
 								<Link to="/articles">Work Experience</Link>
 							</li>
-							{/*<li*/}
-							{/*	className={*/}
-							{/*		active === "contact"*/}
-							{/*			? "nav-item active"*/}
-							{/*			: "nav-item"*/}
-							{/*	}*/}
-							{/*>*/}
-							{/*	<Link to="/contact">Achievements</Link>*/}
-							{/*</li>*/}
+							<li
+								className={
+									active === "achievements"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+								<Link to="/achievements">Achievements</Link>
+							</li>
 							<li
 								className={
 									active === "resume"
@@ -64,7 +55,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<a href="https://drive.google.com/file/d/1ZvP40GosxCDeA6UALooO8dP1mgtzdTYV/view?usp=drive_link" target="_blank">Resume</a>
+								<a href="https://drive.google.com/file/d/1Dvt8GHBCZoev7cbKlI6UFeKH9oAb0L-C/view" target="_blank">Resume</a>
 							</li>
 						</ul>
 					</div>
