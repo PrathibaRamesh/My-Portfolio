@@ -2,7 +2,7 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am Prathiba Ramesh, a passionate and results-driven Software Engineer with a master's degree in Computer Science. My journey in technology has been characterized by a relentless pursuit of excellence and a commitment to continuous learning. Throughout my career, I have honed my skills in software development, system architecture, and performance optimization. My proficiency spans a range of programming languages, and I have a proven track record of designing and implementing scalable, efficient, and maintainable software systems.",
+			"I am Prathiba Ramesh, a passionate and results-driven Software Engineer with over 5 years of experience and a master's degree in Computer Science. My journey in technology has been defined by a relentless pursuit of excellence and a commitment to continuous learning. Over the years, I have developed expertise in software development, system architecture, and performance optimization. I am proficient in a variety of programming languages and have a proven track record of designing and implementing scalable, efficient, and maintainable software systems.",
 		keywords: [""],
 	},
 
