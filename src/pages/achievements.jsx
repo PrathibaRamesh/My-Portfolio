@@ -8,8 +8,6 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 import Logo from "../components/common/logo";
 
-import "./styles/contact.css";
-
 const Achievements = () => {
     const cards = [
         {
