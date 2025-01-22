@@ -46,7 +46,7 @@ const INFO = {
 				"Created a VR training program for Structural Engineers using Unity and C#. Developed realistic post-hazard assessment scenarios with interactive VR-friendly UI, optimizing performance with Unity's Scene Management API.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
 			linkText: "View Project",
-			link: "https://github.com/khanhngg/VR-Engine-SFSU",
+			link: "https://github.com/igouProto/VR-Engine-SFSU",
 		},
 
 		{
